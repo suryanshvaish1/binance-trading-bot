@@ -6,8 +6,8 @@ from bot.logging_config import setup_logging
 
 app = typer.Typer()
 
-API_KEY = "2fb5SoewjFlgmDWBtNwR7KN0G8sPFuyiohZfsnaCKig7rsM5EeECsQDTJGtOlXLK"
-API_SECRET = "EV9tMre7wSCWTFacByjn3o1CVEmd3aTRezBDPORnblQvU84l1LjJ1HyIv9HXU8fE"
+API_KEY = "YOUR_API_KEY"
+API_SECRET = "YOUR_SECRET_KEY"
 
 @app.command()
 def trade(
